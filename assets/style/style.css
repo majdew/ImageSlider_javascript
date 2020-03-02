@@ -1,69 +1,69 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
 }
 
 img {
-  width: 100%;
-  height: 450px;
+	width: 100%;
+	height: 450px;
 }
 
 .app-root {
-  width: 100vw;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 
 h1 {
-  text-align: center;
+	text-align: center;
 }
 
 .imageslides-container {
-  width: 60%;
-  margin: auto;
-  border: 3px solid black;
-  overflow: hidden;
-  position: relative;
+	width: 60%;
+	margin: auto;
+	border: 3px solid black;
+	overflow: hidden;
+	position: relative;
 }
 
 .imageslides-container .slide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  height: 450px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 450px;
 }
 
 .imageslides-container #prevBtn {
-  position: absolute;
-  top: 50%;
-  z-index: 10;
-  left: 5%;
-  font-size: 35px;
-  color: white;
-  opacity: 0.5;
-  cursor: pointer;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	left: 5%;
+	font-size: 35px;
+	color: white;
+	opacity: 0.5;
+	cursor: pointer;
 }
 
 .imageslides-container #nextBtn {
-  position: absolute;
-  top: 50%;
-  z-index: 10;
-  right: 5%;
-  font-size: 35px;
-  color: white;
-  opacity: 0.5;
-  cursor: pointer;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	right: 5%;
+	font-size: 35px;
+	color: white;
+	opacity: 0.5;
+	cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
